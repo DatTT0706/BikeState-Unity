@@ -20,6 +20,7 @@ namespace Assets.Scripts
                 FindObjectOfType(typeof(BikeController));
         }
 
+        // Create buttons to control the bike.
         void OnGUI()
         {
             // start bike if click start bike
